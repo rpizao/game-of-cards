@@ -1,6 +1,3 @@
-/* @import url(portrait.css) only screen and (orientation: portrait); */
-/* @import url(responsividade.css); */
-
 .table {
   background-image: url('https://img.freepik.com/premium-vector/poker-table-made-green-cloth-isolated-white-background_47243-1074.jpg');
   background-repeat: no-repeat;
@@ -13,6 +10,7 @@
   height: 50%;
   display: flex;
   transition: all .5s linear;
+  transition: margin-top 0.3s ease !important;
 }
 
 .player.show {
@@ -26,7 +24,6 @@
 
 .player.system {
   align-items: flex-end;
-  margin-bottom: 2em;
 }
 
 .player.system img {
@@ -40,4 +37,8 @@
 
 .player.user img {
   margin-left: -3em;
+}
+
+img.destaque {
+  margin-top: -1em;
 }
