@@ -1,0 +1,9 @@
+@media screen and (orientation: portrait) {
+    .table {
+        background-image: url(imgs/table-portrait.png) !important;
+    }
+
+    .player.user, .player.system {
+        align-items: center !important;
+    }
+}

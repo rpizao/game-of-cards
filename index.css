@@ -1,0 +1,43 @@
+/* @import url(portrait.css) only screen and (orientation: portrait); */
+/* @import url(responsividade.css); */
+
+.table {
+  background-image: url('https://img.freepik.com/premium-vector/poker-table-made-green-cloth-isolated-white-background_47243-1074.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.player {
+  width: 0px;
+  height: 50%;
+  display: flex;
+  transition: all .5s linear;
+}
+
+.player.show {
+  width: 100% !important;
+}
+
+.player img {
+  min-width: 5em;
+  width: 10%;
+}
+
+.player.system {
+  align-items: flex-end;
+  margin-bottom: 2em;
+}
+
+.player.system img {
+  margin-right: -3em;
+}
+
+.player.user {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.player.user img {
+  margin-left: -3em;
+}
