@@ -42,3 +42,14 @@
 img.destaque {
   margin-top: -1em;
 }
+
+.player.user img.selecionada {
+  /* transform: translate(-50px, -50px); */
+  position: absolute;
+  right: 40%;
+}
+
+.player.system img.selecionada {
+  position: absolute;
+  left: 40%;
+}
